@@ -1,15 +1,8 @@
 //APE 2019.
 // Initialize Firebase
+
 // TODO 2 - Fix up this indentation. Note how this indentation is 2 spaces, and not aligned to the right, and the rest of the code is 4 spaces. Keep it consistent.
-var config = {
-    apiKey: "AIzaSyDvNXC31lNmym8bywLU-5cQpj1r9Ff-rvs",
-    authDomain: "ruleslist-499ae.firebaseapp.com",
-    databaseURL: "https://ruleslist-499ae.firebaseio.com",
-    projectId: "ruleslist-499ae",
-    storageBucket: "ruleslist-499ae.appspot.com",
-    messagingSenderId: "709988376759"
-};
-firebase.initializeApp(config);
+
 
 
 // get elements
