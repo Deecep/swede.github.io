@@ -1,5 +1,18 @@
-This is a readme.
+#The Rules.
 
+##Description of project.
+
+Create a web page to facilitate login, voting and dynamic veiwing of a set of rules along with comments.
+
+##Developers
+
+#Required Packages
+
+
+##Credits
+
+Alex E
+Nick M
 
 TODO 1: 
 
