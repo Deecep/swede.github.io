@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Welcome to Firebase Hosting</title>
+    
+    
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-app.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-database.js"></script>
 
     <link rel="stylesheet" type="text/css" href="sytle.css">
 
@@ -13,32 +18,31 @@
 
   <body>
 
-    <input id="txtEmail" type="email" placeholder="Email">
-    <input id="txtPassword" type="password" placeholder="Password">
+    <input id="userEmail" type="email" placeholder="Email">
+    <input id="userPassword" type="password" placeholder="Password">
 
-    <button id="btnLogin">Login</button>
-    <button id="btnSignUp">Sign Up</button>
-    <button id="btnLogOut">Log Out</button>
-  
+    <button id="buttonLogin">Login</button>
+    <button id="buttonSignUp">Sign Up</button>
+    <button id="buttonLogOut">Log Out</button>
+
+    <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyDvNXC31lNmym8bywLU-5cQpj1r9Ff-rvs",
+          authDomain: "ruleslist-499ae.firebaseapp.com",
+          databaseURL: "https://ruleslist-499ae.firebaseio.com",
+          projectId: "ruleslist-499ae",
+          storageBucket: "ruleslist-499ae.appspot.com",
+          messagingSenderId: "709988376759"
+        };
+        firebase.initializeApp(config);
+        src="app.js" 
+        
+     </script>
   
   </body>
 
   
-  <script>
-    src="https://cdn.firebase.com/js/client/2.4.0/firebase-app.js"
-    src="https://cdn.firebase.com/js/client/2.4.0/firebase-auth.js"
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyDvNXC31lNmym8bywLU-5cQpj1r9Ff-rvs",
-      authDomain: "ruleslist-499ae.firebaseapp.com",
-      databaseURL: "https://ruleslist-499ae.firebaseio.com",
-      projectId: "ruleslist-499ae",
-      storageBucket: "ruleslist-499ae.appspot.com",
-      messagingSenderId: "709988376759"
-    };
-    firebase.initializeApp(config);
-    src="app.js" 
-    
- </script>
+  
 
 </html>
