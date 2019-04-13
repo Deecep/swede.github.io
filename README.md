@@ -1,21 +1,21 @@
 # The Rules.
 
 ## Description of project.
+Alex E is working on this project with assitance Nick M to further development skills.
 
-Create a web page to facilitate login, voting and dynamic veiwing of a set of rules along with comments.
+*Goal*: To create a web page that allows login using firebase, voting and dynamic viewing of a set of rules. 
 
 ## Developers
 
 # Required Packages
+* Firebase.
 
+# How to
+1. Install Firebase.
+2. Run Firebase serve from project directory.
+3. Open Localhost:XXXX served in console.
 
 ## Credits
 
-Alex E
-Nick M
-
-TODO 1: 
-
-- Update this file with a title, a small description of the project.
-- Add a section for developers to explain how to get it running on their computer, imagine they just clone the repo, how do they get it running? Eg they will need Firbase Tools, which they can install globally with `npm install -g firebase-tools`, then how do they run it locally?
-
+Alex E.
+Nick M.
