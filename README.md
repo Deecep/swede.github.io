@@ -1,15 +1,15 @@
-#The Rules.
+# The Rules.
 
-##Description of project.
+## Description of project.
 
 Create a web page to facilitate login, voting and dynamic veiwing of a set of rules along with comments.
 
-##Developers
+## Developers
 
-#Required Packages
+# Required Packages
 
 
-##Credits
+## Credits
 
 Alex E
 Nick M
