@@ -7,10 +7,10 @@ Alex E is working on this project with assitance Nick M to further development s
 
 ## Developers
 
-# Required Packages
+### Required Packages
 * Firebase.
 
-# How to
+### How to
 1. Install Firebase.
 2. Run Firebase serve from project directory.
 3. Open Localhost:XXXX served in console.
