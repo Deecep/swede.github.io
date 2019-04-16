@@ -1,44 +1,23 @@
-<!--APE 2019--> 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='sytle.css'>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
 
-    <title>Welcome to Firebase Hosting</title>
-
-    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-app.js"></script> 
-    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-database.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="sytle.css">
-
-  </head>
-
-  <body>
-    <h1>The Rules</h1>
-    <input id="userEmail" type="email" placeholder="Email">
-    <input id="userPassword" type="password" placeholder="Password">
-
-    <button id="buttonLogin">Login</button>
-    <button id="buttonSignUp">Sign Up</button>
-    <button id="buttonLogOut">Log Out</button>
-
-    <script>
-        // Initialize Firebase
-        var config = {
-          apiKey: "AIzaSyDvNXC31lNmym8bywLU-5cQpj1r9Ff-rvs",
-          authDomain: "ruleslist-499ae.firebaseapp.com",
-          databaseURL: "https://ruleslist-499ae.firebaseio.com",
-          projectId: "ruleslist-499ae",
-          storageBucket: "ruleslist-499ae.appspot.com",
-          messagingSenderId: "709988376759"
-        };
-          firebase.initializeApp(config);
-          src="app.js" 
+</head>
+<body>
+<h1>Rules</h1>
+<div id="firebaseui-auth-container"></div>
+<div id="loader">Loading...</div>
         
-     </script>
-  
-    </body>
+<script src='fireBase.js'></script>
+<script src='login.js'></script>
 
+</body>
 </html>
