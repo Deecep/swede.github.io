@@ -17,12 +17,12 @@ Alex E is working on this project with assitance Nick M to further development s
 
 ### How to
 
-1. Install Firebase.
-2. Run Firebase serve from project directory.
-3. Open Localhost:XXXX served in console.
+1. Install Firebase Tools gloably by running `npm i -g firebase-tools`
+2. Run `firebase serve` from project directory
+3. Open `localhost:5000`
 
 
 ## Credits
 
-Alex E.
-Nick M.
+- Alex E
+- Nick M
