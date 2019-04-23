@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Main Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='sytle.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="sytle.css" />
     <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
-</head>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+  </head>
 
-<body>
-    <h1>Welcome to the Main Page</h1>
+  <body>
+    <h1>Rules Main Page</h1>
+    <p>
+      <script>
+        function myFunction() {
+          var number = "123";
+          document.getElementById("myText").innerHTML = number;
+        }
+      </script>
+    </p>
 
     <button onclick="mainApp.logOut()">Logout</button>
-
-    <script src='fireBase.js'></script>
-    <script src='login.js'></script>
-    <script src='main.js'></script>
-</body>
-
+    <script src="fireBase.js"></script>
+    <script src="login.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
