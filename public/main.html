@@ -20,5 +20,19 @@
       <li id="userEmail"></li>
     </ul>
     <button onclick="mainApp.logOut()">Logout</button>
+    <!--Rules submit form-->
+    <form action="/my-handling-form-page" method="post">
+      <div>
+        <label for="rule">Rule:</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </div>
+      <div>
+        <label for="ruleDetail">Description:</label>
+        <textarea id="msg" name="user_message"></textarea>
+        <div class="button">
+          <button type="submit">Submit Rule</button>
+        </div>
+      </div>
+    </form>
   </body>
 </html>
