@@ -8,15 +8,18 @@ var mainApp = {};
     if (user) {
       // User is signed in.
       uid = user.uid;
-      var uid = user.uid;
-      var displayName = user.displayName;
       var email = user.email;
+      var displayName = user.displayName;
       var emailVerified = user.emailVerified;
       var photoURL = user.photoURL;
       var phoneNumber = user.phoneNumber;
       var providerData = user.providerData;
+
       console.log(user.displayName);
       console.log(user.email);
+
+      document.getElementById("userEmail").innerHTML = "Email: " + email;
+      document.getElementById("userName").innerHTML = "Name: " + displayName;
     } else {
       // redirect to login
       uid = null;
@@ -27,6 +30,5 @@ var mainApp = {};
   function logOut() {
     firebase.auth().signOut();
   }
-
   mainApp.logOut = logOut;
 })();
