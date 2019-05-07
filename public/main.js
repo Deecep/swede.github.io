@@ -32,3 +32,26 @@ var mainApp = {};
   }
   mainApp.logOut = logOut;
 })();
+
+
+var subButton = document.getElementById('subButton');
+if(subButton){
+  subButton.addEventListener('click', swapper, false);
+};
+
+
+function getRule() 
+{
+  var ruleField = document.getElementById('ruleField').value;
+  var result = document.getElementById('result');
+  
+  if (ruleField.length < 3)
+  {
+      result.textContent = 'Rule must contain at least 3 characters';
+      //alert('Rule must contain at least 3 characters');
+  } else 
+    {
+      result.textContent = 'Your rule is: ' + ruleField;
+      //alert(ruleField);
+    }
+}

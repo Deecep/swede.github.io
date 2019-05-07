@@ -19,18 +19,18 @@
     </ul>
     <button onclick="mainApp.logOut()">Logout</button>
     <!--Rules submit form-->
-    <form action="/my-handling-form-page" method="post">
-      <div>
-        <label for="rule">Rule:</label>
-        <textarea id="rule" name="ruleName"></textarea>
-      </div>
-      <div>
-        <label for="ruleDetail">Description:</label>
-        <textarea id="ruleDetail" name="ruleDescription"></textarea>
-        <div class="button">
-          <button type="submit">Submit Rule</button>
+    <div class='wrapper'>
+        <form id='ruleForm'>
+        <div class='form-uname'>
+            <label id='ruleLable' for='ruleField'>Create a rule:</label>
+            <input id='ruleField' type='text' maxlength='25'></input>
         </div>
-      </div>
-    </form>
+        <div class='form-sub'>
+            <button id='subButton' type='button'>Print your name!</button>
+        </div>
+        </form>
+        <div>
+            <p id='result'></p></div>
+        </div>
   </body>
 </html>
