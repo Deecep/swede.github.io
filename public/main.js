@@ -34,14 +34,14 @@ var mainApp = {};
 })();
 
 
-var subButton = document.getElementById('subButton');
-if(subButton){
-  subButton.addEventListener('click', swapper, false);
-};
-
-
 function getRule() 
 {
+
+  var subButton = document.getElementById('subButton');
+  if(subButton){
+   subButton.addEventListener('click', swapper, false);
+  };
+
   var ruleField = document.getElementById('ruleField').value;
   var result = document.getElementById('result');
   
