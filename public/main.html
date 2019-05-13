@@ -20,6 +20,7 @@
     <button onclick="mainApp.logOut()">Logout</button>
 
     <!--Rules submit form-->
+<<<<<<< HEAD
     <div class='wrapper'>
         <form id='ruleForm'>
         <div>
@@ -32,6 +33,19 @@
         </form>
         <div>
             <p id='result'></p></div>
+=======
+    <form id="form" action="/my-handling-form-page" method="post">
+      <div>
+        <label for="rule">Rule:</label>
+        <textarea id="rule" name="ruleName"></textarea>
+      </div>
+      <div>
+        <label for="ruleDetail">Description:</label>
+        <textarea id="ruleDetail" name="ruleDescription"></textarea>
+        <div class="button">
+          <button type="submit">Submit Rule</button>
+          <p id="log"></p>
+>>>>>>> master
         </div>
   </body>
 </html>
