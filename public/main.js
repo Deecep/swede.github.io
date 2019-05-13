@@ -31,4 +31,13 @@ var mainApp = {};
     firebase.auth().signOut();
   }
   mainApp.logOut = logOut;
+
+  window.onload = function logSubmit(event) {
+    log.textContent = `Form Submitted! Time stamp: ${event.timeStamp}`;
+    event.preventDefault();
+  };
+
+  const form = document.getElementById("form");
+  const log = document.getElementById("log");
+  form.addEventListener("submit", logSubmit);
 })();

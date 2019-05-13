@@ -19,7 +19,7 @@
     </ul>
     <button onclick="mainApp.logOut()">Logout</button>
     <!--Rules submit form-->
-    <form action="/my-handling-form-page" method="post">
+    <form id="form" action="/my-handling-form-page" method="post">
       <div>
         <label for="rule">Rule:</label>
         <textarea id="rule" name="ruleName"></textarea>
@@ -29,6 +29,7 @@
         <textarea id="ruleDetail" name="ruleDescription"></textarea>
         <div class="button">
           <button type="submit">Submit Rule</button>
+          <p id="log"></p>
         </div>
       </div>
     </form>
